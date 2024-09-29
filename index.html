@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="script.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <!--navigation-->
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <span>MythicalWays</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1700"><a href="#about">About Me</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1900"><a href="#hobbies">Hobbies</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="2100"><a href="#experiences">Experience</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="2300"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#experiences">Experience</a>
+                <a href="#experiences">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="1500">
+                <img src="pfpTest.png" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500">
+                    Hey, I'm
+                    <span>MythicalWays.</span>
+                </h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500">
+                    I'm a<br>
+                    <span class="typewriter-text"></span>
+                    <label for=""></label>
+                </div>
+                <p data-aos="flip-down" data-aos-delay="1800"><br>Welcome to my first front-end website! It's bad? Well, I tried.<br>
+                    Anyway, I'm a passionate coder and a gamer. I'm a college student, <br>I love to make friends and chase opportunities. 
+                    <br><br>I'm a guy who has a lot of screen time. If you see me online all the<br> time, that's probably why.<br> <br></p>
+                <div class="social-links">
+                    <a href="https://account.xbox.com/en-us/profile?gamertag=mythicalways5" target="_blank" data-aos="fade-in" data-aos-duration="2000">
+                        <i class="fa-brands fa-xbox"></i>
+                    </a>
+                    <a href="https://discordapp.com/users/660885266764005407" target="_blank" data-aos="fade-in" data-aos-duration="2100">
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
+                    <a href="https://steamcommunity.com/profiles/76561199163531007/" target="_blank" data-aos="fade-in" data-aos-duration="2200">
+                        <i class="fa-brands fa-steam"></i>
+                    </a>
+                    <a href="https://github.com/MythicalWays5" target="_blank" data-aos="fade-in" data-aos-duration="2300">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <div class="button" data-aos="fade-up" data-aos-delay="900">
+                    <a href="#contact">
+                        <button>Contact me</button>
+                    </a>
+            </div>
+        </div>
+    </section>
+
+<!--About section start-->
+<section class="about" id="about">
+    <div class="content">
+        <div class="title"><span data-aos="fade-up" data-aos-delay="900">About Me</span></div>
+        <div class="about-details">
+            <div class="left">
+            </div>
+            <div class="right">
+                <div class="topic" data-aos="fade-right" data-aos-delay="900">Personality<br></div>
+                <p data-aos="fade-left" data-aos-delay="900">I'm usually a silent person. If I talk, it's only in a professional/formal tone unless you're a friend. I usually don't approach people, they approach me, that's when I can create friendships.
+                </p>
+                <div class="topic" data-aos="fade-right" data-aos-delay="900"><br>Information<br></div>
+                <p data-aos="fade-up" data-aos-delay="900">Don't expect me to tell much here. Here's all you have to know:<br><br><br>
+                    • Nickname: Myth<br><br>
+                    • Pronouns: He/Him<br><br>
+                    • Location: India (Current Time: <span id="current-time">Loading...</span>)<br><br>
+                    • Occupation: College student<br><br>
+                    • Major: Computers<br><br>
+                    • Favorite franchise: Halo<br><br>
+                    • Favorite pets: Birds<br><br>
+                    • Favorite cuisine: Indian, Italian<br>
+                </p>
+                <div class="topic" data-aos="fade-right" data-aos-delay="900"><br>Interests<br></div>
+                <p data-aos="fade-up" data-aos-delay="900">My interests? A good way to have an interesting conversation with me.<br><br>
+                    <br>• I'm someone who enjoys geopolitics and diplomacy.<br><br>• I love talking about various cultures throughout the globe.<br><br>• I don't actively watch movies, but Marvel and some characters of DC do have my interest.<br><br>• I love proving stereotypes wrong.<br><br>• I'm not much of a music listener, most of my playlists are random :p<br><br>• I enjoy talking about technology.<br><br>• I love discussing about hobbies.<br>
+                </p>
+                <div class="button" data-aos="fade-up" data-aos-delay="900">
+                    <a href="https://tiny.one/cosmic" target="_blank">
+                        <button>Check out Cosmic!</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- JavaScript to get current IST time -->
+<!-- JavaScript to get current IST time with AM/PM -->
+<script>
+    function updateTime() {
+        // Create a date object
+        const date = new Date();
+
+        // Convert the current time to IST (GMT+5:30)
+        const utcOffset = date.getTimezoneOffset() * 60000; // Get offset in milliseconds
+        const istOffset = 5.5 * 3600000; // IST is UTC + 5:30 hours in milliseconds
+        const istTime = new Date(date.getTime() + utcOffset + istOffset);
+
+        // Get hours, minutes, and seconds
+        let hours = istTime.getHours();
+        const minutes = istTime.getMinutes().toString().padStart(2, '0');
+        const seconds = istTime.getSeconds().toString().padStart(2, '0');
+        const ampm = hours >= 12 ? 'PM' : 'AM';
+
+        // Convert to 12-hour format
+        hours = hours % 12;
+        hours = hours ? hours : 12; // if hour is 0, set it to 12
+
+        // Format the time with AM/PM
+        const formattedTime = `${hours.toString().padStart(2, '0')}:${minutes}:${seconds} ${ampm}`;
+
+        // Display the formatted time
+        document.getElementById("current-time").textContent = formattedTime;
+    }
+
+    // Call the updateTime function every second to keep the time updated
+    setInterval(updateTime, 1000);
+</script>
+
+
+<!--HOBBIES-->
+<section class="hobbies" id="hobbies">
+    <div class="content">
+        <div class="title"><span data-aos="flip-down" data-aos-duration="1500">My Hobbies</span></div>
+        <div class="boxes">
+            <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                <div class="icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                <div class="topic">Coding</div>
+                <p>I love coding. Would brainstorm over an assigned code all day.</p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                <div class="icon">
+                    <i class="fab fa-fort-awesome"></i>
+                </div>
+                <div class="topic">Gaming</div>
+                <p>I play games. I love Halo. Also a fan of Forza, Roblox and Minecraft.</p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                <div class="icon">
+                    <i class="fab fa-jedi-order"></i>
+                </div>
+                <div class="topic">Reading</div>
+                <p>Mostly Fiction & Medieval novels, lore, movies and games based out of it.</p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                <div class="icon">
+                    <i class="fas fa-space-shuttle"></i>
+                </div>
+                <div class="topic">Stargazing</div>
+                <p>Named my Discord bot after it. I just love the night sky and space as a whole.</p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                <div class="icon">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <div class="topic">Gardening</div>
+                <p>May seem old-fashion, but I love growing various plants. I like a connection to nature.</p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                <div class="icon">
+                    <i class="fas fa-pizza-slice"></i>
+                </div>
+                <div class="topic">Cooking</div>
+                <p>I'm a boy and I like cooking, yes. I do enjoy cooking certain dishes.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--EXPERIENCES-->
+<!--HOBBIES-->
+<section class="experiences" id="experiences">
+    <div class="content">
+        <div class="title"><span data-aos="flip-down" data-aos-duration="1500">Experience</span></div>
+        <div class="boxes">
+            <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                <div class="icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                <div class="topic">Moderation - Discord</div>
+                <p>Been a moderator in various servers having thousands of members. Former senior moderation at Bolty's Discord.</p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                <div class="icon">
+                    <i class="fas fa-award"></i>
+                </div>
+                <div class="topic">Moderation - Games</div>
+                <p>Currently a Senior Moderator for the Roblox Game: <a href="https://www.roblox.com/games/5041144419/SCP-Roleplay" target="_blank">SCP: Roleplay</a>, by MetaMethod Studios.</p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                <div class="icon">
+                    <i class="fas fa-hdd"></i>
+                </div>
+                <div class="topic">Development</div>
+                <p>Currently lead developer and founder of the Discord bot, Cosmic.</p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                <div class="icon">
+                    <i class="fab fa-galactic-senate"></i>
+                </div>
+                <div class="topic">Game Development</div>
+                <p>New to this genre. Using Roblox Studio and Lua as a primary platform. Developer at Retrolife Studios, a group run by me and my college mates.</p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                <div class="icon">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <div class="topic">Leadership</div>
+                <p>Have led various game-focused and Discord-focused factions. Make me serious, and the success rate is near 100% of our operations.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--contact me section-->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span data-aos="flip-down" data-aos-duration="1500">Contact Me</span></div>
+            <div class="text">
+                <div class="topic">Have concerns?</div>
+                <p>Secret hidden text</p>
+                <div class="button" data-aos="fade-up" data-aos-delay="900">
+                    <a href="https://discordapp.com/users/660885266764005407" target="_blank">
+                        <button>Let's talk</button>
+                    </a>
+            </div>
+        </div>
+    </section>
+<!--FOOTER SECTION-->
+<footer>
+    <div class="text">
+        <span>Made by MythicalWays | ©️ 2024, All rights reserved.</span>
+    </div>
+</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({offset:0});
+  </script>
+</body>
+</html>
