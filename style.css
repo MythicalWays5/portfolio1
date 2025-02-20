@@ -143,18 +143,40 @@ section .main-container{
     align-items: center;
 }
 
+/* Profile Image Container */
 .main-container .image {
     width: 370px;
     height: 50vh;
     border-radius: 100%;
     overflow: hidden;
     box-shadow: 0 0 50px #00ffff;
-    margin-top: 60px; /* Adjust this for vertical spacing */
-    margin-left: 100px; /* Optionally shift it more to the right */
+    margin-top: 60px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-.main-containter .image img{
+/* Profile Image */
+.main-container .image img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Overlay APNG - Enlarged to Overlap Circular Frame */
+.main-container .image::after {
+    content: "";
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    width: 120%;
+    height: 120%;
+    background: url('https://cdn.discordapp.com/avatar-decoration-presets/a_8552f9857793aed0cf816f370e2df3be.png') no-repeat center;
+    background-size: contain;
+    pointer-events: none;
 }
 
 .main-container .image:hover{
